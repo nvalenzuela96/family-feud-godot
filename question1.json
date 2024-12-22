@@ -1,0 +1,33 @@
+{
+	"Question": "Where might you hide something you wanted to smuggle into prison?",
+	"Answers":[
+		{
+			"Answer": "In a cake",
+			"Points": 31
+		},
+		{
+			"Answer": "Up your butt",
+			"Points": 30
+		},
+		{
+			"Answer": "Underwear",
+			"Points": 10
+		},
+		{
+			"Answer": "Bra",
+			"Points": 9
+		},
+		{
+			"Answer": "Shoe",
+			"Points": 5
+		},
+		{
+			"Answer": "Socks",
+			"Points": 3
+		},
+		{
+			"Answer": "Hair",
+			"Points": 5
+		},
+	]
+}

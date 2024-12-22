@@ -1,0 +1,29 @@
+{
+	"Question": "After how many dates is a relationship considered serious?",
+	"Answers":[
+		{
+			"Answer": "5 Dates",
+			"Points": 21
+		},
+		{
+			"Answer": "4 Dates",
+			"Points": 17
+		},
+		{
+			"Answer": "3 Dates",
+			"Points": 14
+		},
+		{
+			"Answer": "10 Dates",
+			"Points": 14
+		},
+		{
+			"Answer": "2 Dates",
+			"Points": 13
+		},
+		{
+			"Answer": "1 Dates",
+			"Points": 10
+		}
+	]
+}

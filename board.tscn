@@ -1,0 +1,288 @@
+[gd_scene load_steps=7 format=3 uid="uid://nkmgwd3mud3i"]
+
+[ext_resource type="Texture2D" uid="uid://cmuc0aluwbnc7" path="res://CoverTexture.png" id="1_6sttq"]
+[ext_resource type="Script" path="res://Board.cs" id="1_dyyeb"]
+[ext_resource type="Texture2D" uid="uid://bgnrcw0itwugk" path="res://BackgroundTexture.png" id="4_3381i"]
+[ext_resource type="AudioStream" uid="uid://h38co0dvp472" path="res://family-feud-good-answer.mp3" id="4_prj6d"]
+[ext_resource type="AudioStream" uid="uid://coqdcghm44njh" path="res://the-family-feud-buzzer-sound-effect.wav" id="5_ufqk2"]
+[ext_resource type="Texture2D" uid="uid://5vigdn4sq6pv" path="res://x.png" id="6_jf72l"]
+
+[node name="Board" type="Node2D"]
+script = ExtResource("1_dyyeb")
+
+[node name="Cover1" type="TextureRect" parent="."]
+top_level = true
+anchors_preset = -1
+anchor_left = 0.350817
+anchor_top = 0.395037
+anchor_right = 0.475012
+anchor_bottom = 0.430432
+offset_right = 175.978
+offset_bottom = 82.9411
+scale = Vector2(0.575376, 0.315487)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_6sttq")
+metadata/_edit_use_anchors_ = true
+
+[node name="Cover2" type="TextureRect" parent="."]
+top_level = true
+anchors_preset = -1
+anchor_left = 0.350694
+anchor_top = 0.442901
+anchor_right = 0.475082
+anchor_bottom = 0.478257
+offset_right = 176.251
+offset_bottom = 82.8488
+scale = Vector2(0.575376, 0.315487)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_6sttq")
+metadata/_edit_use_anchors_ = true
+
+[node name="Cover3" type="TextureRect" parent="."]
+top_level = true
+anchors_preset = -1
+anchor_left = 0.350694
+anchor_top = 0.490741
+anchor_right = 0.475082
+anchor_bottom = 0.526097
+offset_right = 176.251
+offset_bottom = 82.848
+scale = Vector2(0.575376, 0.315487)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_6sttq")
+metadata/_edit_use_anchors_ = true
+
+[node name="Cover4" type="TextureRect" parent="."]
+top_level = true
+anchors_preset = -1
+anchor_left = 0.350694
+anchor_top = 0.53858
+anchor_right = 0.475082
+anchor_bottom = 0.573936
+offset_right = 176.251
+offset_bottom = 82.8488
+scale = Vector2(0.575376, 0.315487)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_6sttq")
+metadata/_edit_use_anchors_ = true
+
+[node name="Cover5" type="TextureRect" parent="."]
+top_level = true
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.395062
+anchor_right = 0.624387
+anchor_bottom = 0.430418
+offset_right = 176.25
+offset_bottom = 82.8481
+scale = Vector2(0.575376, 0.315487)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_6sttq")
+metadata/_edit_use_anchors_ = true
+
+[node name="Cover6" type="TextureRect" parent="."]
+top_level = true
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.442901
+anchor_right = 0.624387
+anchor_bottom = 0.478257
+offset_right = 176.25
+offset_bottom = 82.8488
+scale = Vector2(0.575376, 0.315487)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_6sttq")
+metadata/_edit_use_anchors_ = true
+
+[node name="Cover7" type="TextureRect" parent="."]
+top_level = true
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.490741
+anchor_right = 0.624387
+anchor_bottom = 0.526097
+offset_right = 176.25
+offset_bottom = 82.848
+scale = Vector2(0.575376, 0.315487)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_6sttq")
+metadata/_edit_use_anchors_ = true
+
+[node name="Cover8" type="TextureRect" parent="."]
+top_level = true
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.53858
+anchor_right = 0.624387
+anchor_bottom = 0.573936
+offset_right = 176.25
+offset_bottom = 82.8488
+scale = Vector2(0.575376, 0.315487)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_6sttq")
+metadata/_edit_use_anchors_ = true
+
+[node name="Score" type="Label" parent="."]
+offset_left = 920.0
+offset_top = 202.0
+offset_right = 954.0
+offset_bottom = 225.0
+size_flags_horizontal = 4
+text = "00
+"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="AnswerCol1" type="VFlowContainer" parent="."]
+offset_left = 680.0
+offset_top = 432.0
+offset_right = 816.0
+offset_bottom = 624.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/v_separation = 27
+
+[node name="Answer1" type="Label" parent="AnswerCol1"]
+layout_mode = 2
+text = "Test
+"
+
+[node name="Answer2" type="Label" parent="AnswerCol1"]
+layout_mode = 2
+text = "Test"
+
+[node name="Answer3" type="Label" parent="AnswerCol1"]
+layout_mode = 2
+text = "Test
+"
+
+[node name="Answer4" type="Label" parent="AnswerCol1"]
+layout_mode = 2
+text = "Test
+"
+
+[node name="AnswerCol2" type="VFlowContainer" parent="."]
+offset_left = 984.0
+offset_top = 432.0
+offset_right = 1100.0
+offset_bottom = 616.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/v_separation = 27
+
+[node name="Answer1" type="Label" parent="AnswerCol2"]
+layout_mode = 2
+text = "Test"
+
+[node name="Answer2" type="Label" parent="AnswerCol2"]
+layout_mode = 2
+text = "Test"
+
+[node name="Answer3" type="Label" parent="AnswerCol2"]
+layout_mode = 2
+text = "Test"
+
+[node name="Answer4" type="Label" parent="AnswerCol2"]
+layout_mode = 2
+text = "Test"
+
+[node name="ScoreCol2" type="VFlowContainer" parent="."]
+offset_left = 1160.0
+offset_top = 432.0
+offset_right = 1192.0
+offset_bottom = 632.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/v_separation = 27
+
+[node name="Score1" type="Label" parent="ScoreCol2"]
+layout_mode = 2
+text = "01"
+
+[node name="Score2" type="Label" parent="ScoreCol2"]
+layout_mode = 2
+text = "2"
+
+[node name="Score3" type="Label" parent="ScoreCol2"]
+layout_mode = 2
+text = "03"
+
+[node name="Score4" type="Label" parent="ScoreCol2"]
+layout_mode = 2
+text = "00"
+
+[node name="ScoreCol1" type="VFlowContainer" parent="."]
+offset_left = 872.0
+offset_top = 432.0
+offset_right = 891.0
+offset_bottom = 624.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/v_separation = 27
+
+[node name="Score1" type="Label" parent="ScoreCol1"]
+layout_mode = 2
+text = "00"
+
+[node name="Score2" type="Label" parent="ScoreCol1"]
+layout_mode = 2
+text = "00"
+
+[node name="Score3" type="Label" parent="ScoreCol1"]
+layout_mode = 2
+text = "00"
+
+[node name="Score4" type="Label" parent="ScoreCol1"]
+layout_mode = 2
+text = "00"
+
+[node name="BackgroundTexture" type="Sprite2D" parent="."]
+visible = false
+z_index = -1
+position = Vector2(962, 542)
+texture = ExtResource("4_3381i")
+
+[node name="CorrectSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_prj6d")
+
+[node name="IncorrectSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_ufqk2")
+
+[node name="X1" type="Sprite2D" parent="."]
+visible = false
+top_level = true
+position = Vector2(942, 509)
+texture = ExtResource("6_jf72l")
+
+[node name="X2" type="Sprite2D" parent="."]
+visible = false
+top_level = true
+position = Vector2(532, 507)
+texture = ExtResource("6_jf72l")
+
+[node name="X3" type="Sprite2D" parent="."]
+visible = false
+top_level = true
+position = Vector2(1353, 507)
+texture = ExtResource("6_jf72l")
+
+[node name="XTimer" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
+
+[node name="Question" type="Label" parent="."]
+offset_left = 676.0
+offset_top = 344.0
+offset_right = 1195.0
+offset_bottom = 410.0
+text = "Example question.............."
+
+[connection signal="timeout" from="XTimer" to="." method="_OnXTimerTimeout"]
